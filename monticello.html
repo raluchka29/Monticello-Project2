@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="monticello.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet"> 
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <title>Monticello - Project2 Beetroot Academy</title>
+</head>
+<body>
+    <div class="section1" id="section1">
+        <div class="blue">
+            <div class="welcome-left">
+                <div class="welcome" id="welcome">
+                <div class="logo" id="logo">
+                    <img class="welcome-logo" src="./img/Logo.png">
+                </div>
+
+                <div class="navbar-div" id="navbar-div">
+                    <nav id="navbar">
+                        <ul class="navbar-list">
+                            <li>
+                                <a href="#section1">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="#section2">PROJECTS</a>
+                            </li>   
+                            <li>
+                                <a href="#section3">NEWS</a>
+                            </li>
+                            <li>
+                                <a href="#section5">CONTACT</a>
+                            </li>
+                        </ul>
+                     </nav>
+                </div>
+
+                <div class="social-media" id="social-media">
+                    <a href="https://www.facebook.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                     </a>
+                     <a href="https://twitter.com/?lang=en">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="about" id="about">
+            <h1>SIMPLE & MODERN</h1>
+            <h4>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+            </div>
+        </div>
+
+        <div class="scroll-dots">
+            <svg width="10" height="210" viewBox="0 0 10 210" fill="none" xmlns="http://www.w3.org/2000/svg" class="dot" data-scroll-to="section1">
+              <circle cx="5" cy="105" r="4.5" transform="rotate(90 5 105)" stroke="white"/>
+              <circle cx="5" cy="155" r="4.5" transform="rotate(90 5 155)" stroke="white"/>
+              <circle cx="5" cy="205" r="4.5" transform="rotate(90 5 205)" stroke="white"/>
+              <circle cx="5" cy="55" r="4.5" transform="rotate(90 5 55)" stroke="white"/>
+              <circle cx="5" cy="5" r="5" transform="rotate(90 5 5)" fill="white"/>
+            </svg>            
+        </div>
+
+        <div class="elipse">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle opacity="0.7" cx="20" cy="20" r="19.5" stroke="white"/>
+              </svg>
+        </div>
+
+        </div>
+        
+          <div class="what">
+            <hr>
+            <p>WHAT WE DO</p>
+          </div>
+    </div>
+
+    <div class="section2" id="section2">
+        <div class="trade-center">
+            <div class="trade-center-photoes">
+                <img class="rectangle1" src="./img/Rectangle 3.png">
+                <img class="building1" src="./img/joel-filipe-151697 1.png">
+            </div>
+            <div class="trade-center-text">
+                <p class="p1">ONE WORLD</p>
+                <p class="p2">TRADE CENTER</p>
+                <p class="p3">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                <button>MORE DETAILS</button>
+                <p class="p4"><img src="./img/map icon.png">New York City, United States - 1776 feet </p>
+            </div>
+        </div>
+        <div class="commerce-center">            
+            <div class="commerce-center-text">
+                <p class="p1">INTERNATIONAL</p>
+                <p class="p2">COMMERCE CENTER</p>
+                <p class="p3">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+                <button>MORE DETAILS</button>
+                <p class="p4"><img src="./img/map icon.png">Hong Kong - 1588 feet</p>
+            </div>
+            <div class="commerce-center-photoes">
+                <img class="rectangle2" src="./img/Rectangle 4.png">
+                <img class="building2" src="./img/photos-1284iH4Hjf4mhNgW 1.png">
+            </div>
+        </div>        
+    </div>
+
+    <div class="section3" id="section3">
+            <hr>
+            <h2>LATEST NEWS</h2>
+            <div class="news" id="news">
+                <div class="news1">
+                    <img src="./img/lauren-mancke-60633 1.png">
+                    <p class="n1">SEE THE UNMATCHED BEAUTY OF THE GREAT.</p>
+                    <p class="n2">Free directories: directories are perfect for customers that are searching for...</p>
+                    <div class="person1">
+                        <div class="person-photo">
+                            <img src="./img/person1.png">
+                        </div>
+                        <div class="person-name">
+                            <p class="name">ALJA BRUN</p>
+                            <p class="date">20 Jan 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news2">
+                    <img src="./img/joel-filipe-151690 1.png">
+                    <p class="n1">EFFECTIVE ADVERTISING POINTERS.</p>
+                    <p class="n2">Having a home based business is a wonderful asset to your life...</p>
+                    <div class="person2">
+                        <div class="person-photo">
+                            <img src="./img/person2.png">
+                        </div>
+                        <div class="person-name">
+                            <p class="name">DOMINIC FREEMAN</p>
+                            <p class="date">13 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news3">
+                    <img src="./img/matthew-hamilton-202227 1.png">
+                    <p class="n1">HYPNOTIZE YOURSELF INTO THE GHOST..</p>
+                    <p class="n2">There are many things that are important to catalog design...</p>
+                    <div class="person3">
+                        <div class="person-photo">
+                            <img src="./img/person3.png">
+                        </div>
+                        <div class="person-name">
+                            <p class="name">ALICE WARD</p>
+                            <p class="date">30 Nov 2019</p>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div class="scroll-dots2" id="scroll-dots2">
+                <svg width="210" height="10" viewBox="0 0 210 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="105" cy="5" r="4.5" stroke="white"/>
+                    <circle cx="155" cy="5" r="4.5" stroke="white"/>
+                    <circle cx="205" cy="5" r="4.5" stroke="white"/>
+                    <circle cx="55" cy="5" r="5" fill="white"/>
+                    <circle cx="5" cy="5" r="4.5" stroke="white"/>
+                  </svg>
+            </div>
+    </div>
+
+    <div class="section4" id="section4">
+        <hr>
+        <p>GALLERY</p>
+        <div class="gallery">
+            <img class="grid1" src="./img/grid1.png">
+            <img class="grid2" src="./img/grid2.png">
+            <img class="grid3" src="./img/grid3.png">
+            <img class="grid4" src="./img/grid4.png">
+            <img class="grid5" src="./img/grid5.png">
+        </div>
+        <button>SEE MORE</button>
+    </div>
+
+    <div class="section5" id="section5">
+        <div class="map" id="map">            
+        </div>
+        <div class="get-in-touch" id="get-in-touch">
+            <hr>
+            <h4>GET IN TOUCH</h4>
+            <div class="form-box">
+                <div class="info">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>91 Nolan Extensions Suite 670</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>+001 356-868-2454</p>                    
+                    <p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>montichello@service.com</p>                    
+                    <p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>From 07:05AM to 19:30PM</p>
+                </div>
+            </div>
+            <div>
+                <form action="https://lms.beetrootacademy.com/studying/clheupuvmenjt0866bzv5yd00/theory/cllph04erkvnw08667dn7luil">
+                <input type="text" placeholder="Your Name" name="name">
+                <input type="email" placeholder="Your E-mail" name="email">
+                <button type="submit">SUBMIT</button>
+                 </form>
+            </div>
+        </div>
+        
+        <div class="contact" id="contact">
+            <div class="final-logo">
+                <img src="./img/Logo.png">
+                <p>Copyrights © 2020 Monticello</p>
+            </div>
+            <div class="social-media" id="social-media">
+                <a href="https://www.facebook.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                 </a>
+                 <a href="https://twitter.com/?lang=en">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="monticello.js" ></script>
+</body>
+</html>

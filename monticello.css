@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+    /*overflow-x: hidden;*/
+}
+.section1{
+width: 100%;
+height: 1064px;
+}
+.blue{
+    background-color: rgba(95, 20, 2172, 0.5);
+    background-image: url(./img/tu-tram-pham-202263\ 1.png);
+}
+.what hr{
+width: 5rem;
+margin-top: 7rem;
+}
+.map{
+    background-image: url(./img/snazzy-image-2\ 1.png);
+    height: 35rem;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    bottom: -20rem;
+}
+.contact{
+    background-color: rgba(95, 20, 2172, 0.5);
+    background-image: url(./img/scott-webb-176434\ 2.png);
+}
+svg{
+    fill: white;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 10rem 5rem 3rem;
+}
+.social-media{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 1.5rem;   
+}
+.social-media a{
+    margin-right: 2rem;
+}
+ul li a{
+text-decoration: none;    
+color: white;
+margin-right: 4rem;
+font-family: Source Sans Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.navbar-list{
+    list-style: circle;
+    color: white;
+    display: flex;
+    flex-direction: row;    
+}
+.welcome-logo{
+    padding-left: 5rem;
+}
+.about h1{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 8px;
+text-align: center;
+}
+.about h4{
+    text-align: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5.4px;
+}
+.scroll-dots{ 
+ position: relative;
+ bottom: 15rem;
+ left: 80rem;
+}
+.elipse{
+    position: relative;
+    bottom: 5rem;
+    left: 42rem;
+}
+.what p{
+    color: #2C4058;
+text-align: center;
+font-family: Montserrat;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.trade-center{
+    display: flex;  
+    margin-top: -5rem;  
+}
+.commerce-center{
+    display: flex;
+    position: relative; 
+    top: -12rem;
+}
+.rectangle1, .rectangle2, .building1, .building2{
+    width: 34rem;
+height: 22rem;
+flex-shrink: 0;
+}
+.p1{
+    color: #2C4058;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.p2{
+    color: #2C4058;
+font-family: Montserrat;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.p3{
+    color: #2C4058;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.p4{
+    color: #000;
+font-family: Open Sans;
+font-size: 15px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.trade-center button{
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: white;
+width: 13rem;
+height: 4rem;
+}
+.commerce-center button{
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: white;
+width: 13rem;
+height: 4rem;
+}
+.rectangle1{
+z-index: 1;
+}
+.building1{
+z-index: 2;
+position: relative;
+bottom: 20rem;
+left: 8rem;
+}
+.rectangle2{
+z-index: 1;
+}
+.building2{
+z-index: 2;
+position: relative;
+bottom: 20rem;
+right: 10rem;
+}
+.trade-center-text{
+    padding-left: 15rem;
+    padding-right: 11rem;
+}
+.commerce-center-text{
+padding-left:7rem ;
+   padding-right: 15rem;
+}
+.section2{
+    margin-bottom: -25rem;
+}
+.section3{
+    background: linear-gradient(237deg, #24CCFA 11.16%, #3C7FD4 89.18%);
+    padding-top: 5rem;
+}
+.section3 hr{
+    width: 5rem;
+    color: white;
+}
+.section3 h2{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+}
+.news1, .news2, .news3{
+    height: 40;
+    width: 23.1rem;
+    background-color: white;   
+}
+.person1, .person2, .person3{
+    display: flex;
+    flex-direction: row;
+}
+.person-photo{
+    margin-right:1rem;
+    margin-left:1rem ;
+}
+.person-photo img{
+    border-radius: 50%;
+}
+.n1{
+    color: #2C4058;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.n2{
+    color: #2C4058;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.name{
+    color: #2C4058;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.date{
+    color: #55B7FF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.scroll-dots2{
+    padding-bottom:3rem;
+    text-align: center;
+}
+.section4 hr{
+    color: #2C4058;
+    width: 5rem;
+    margin-top: 8rem;
+}
+.section4 p{
+    color: #2C4058;
+text-align: center;
+font-family: Montserrat;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.gallery{
+    display: flex;
+    display: grid;  
+    gap: 1rem 1rem;    
+    align-items: center;
+    justify-content: center;
+    position:relative ;    
+}
+.section4{
+    position: relative;
+    bottom: -8rem;
+}
+.grid1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.grid2{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.grid3{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.grid4{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;    
+}
+.grid5{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.section4 button{
+    background-color: white;
+    width: 13rem;
+    height: 4rem;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    position: relative;
+    margin: 5rem 0 5rem 0;
+    left: 35rem;
+}
+.contact{
+    position: relative;
+    z-index: 1;
+    top: -5rem;
+}
+.get-in-touch{
+    position: relative;
+    z-index: 2;
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    left: 22rem;
+    background-color: white;
+    padding-left: 4rem;
+    padding-bottom: 5rem;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+}
+.info p svg{
+    fill: #7E5AFF;
+}
+.get-in-touch hr{
+    width: 4rem;
+    background: #2C4058;    
+}
+.get-in-touch h4{
+    color: #2C4058;
+text-align: center;
+font-family: Montserrat;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.info p{
+    color: #7E5AFF;
+font-family: FontAwesome;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1rem;
+}
+form button{
+    background-color: white;
+    width: 13rem;
+    height: 4rem;
+    color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+}
+.final-logo{
+    display: flex;
+    flex-direction: row;
+    padding: 10rem 0 5rem 0;
+    margin-bottom: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 5rem;
+    padding-left: 8rem;
+}
+.final-logo p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+form input{
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+}
