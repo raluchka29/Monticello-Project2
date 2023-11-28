@@ -431,3 +431,15 @@ form input{
     border: none;
     border-bottom: 2px solid black;
 }
+a:visited {
+    color: wheat;
+  }
+  button:hover{
+    transform: translateY(4px);
+}
+input:hover{
+    transform: translateY(4px);
+}
+a:hover{
+    transform: translateY(2px);
+}
